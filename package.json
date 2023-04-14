@@ -1,0 +1,23 @@
+{
+  "name": "asimov-landing",
+  "version": "1.0.0",
+  "description": "This repository contains the Landing Page for the asimov project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asimov-TotemCrew-202202/asimov-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asimov-TotemCrew-202202/asimov-landing/issues"
+  },
+  "homepage": "https://github.com/Asimov-TotemCrew-202202/asimov-landing#readme",
+  "dependencies": {
+    "i18next": "^22.4.14"
+  }
+}
