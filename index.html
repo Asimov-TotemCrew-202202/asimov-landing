@@ -29,6 +29,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md fixed-top">
@@ -55,25 +56,39 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="languages" class="languages">
-          <div class="languages__item" data-language="es"></div>
-          <div class="languages__item" data-language="en"></div>
-        </div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#users"><u>Users</u></a>
+            <li class="languages py-2 px-3" id="languages">
+              <div class="languages__item" data-language="es">ES</div>
+              <div class="languages__item" data-language="en">EN</div>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#plans"><u>Plans</u></a>
+            <li>
+              <a class="nav-link" href="#users"
+                ><u data-section="navbar" data-value="user">Users</u></a
+              >
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#about-us"><u>About us</u></a>
+            <li>
+              <a class="nav-link" href="#plans"
+                ><u data-section="navbar" data-value="plans">Plans</u></a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#about-us"
+                ><u data-section="navbar" data-value="about">About us</u></a
+              >
+            </li>
+            <li>
+              <a class="py-2 py-md-0 d-block" href="#action"
+                ><button
+                  class="btn btn-outline-primary"
+                  data-section="navbar"
+                  data-value="try"
+                >
+                  Go try
+                </button></a
+              >
             </li>
           </ul>
-          <a href="#action"
-            ><button class="btn btn-outline-primary">Go try</button></a
-          >
         </div>
       </div>
     </nav>
@@ -126,11 +141,15 @@
       <!-- Section 2 -->
       <div class="row">
         <div class="col-md-6 right" style="background-color: black">
-          <figure class="tf_two">
+          <figure class="tf_two" data-section="speech" data-value="title">
             <h1 style="color: white; text-align: left">
               How to teach through virtual tools?
             </h1>
-            <h4 style="color: white; text-align: left">
+            <h4
+              style="color: white; text-align: left"
+              data-section="speech"
+              data-value="subtitle"
+            >
               Asimov was born as an answer to that question
             </h4>
           </figure>
@@ -140,7 +159,11 @@
           style="background-color: black; border-left: 2px solid gray"
         >
           <figure class="tf_two">
-            <p style="color: white; text-align: justify">
+            <p
+              style="color: white; text-align: justify"
+              data-section="speech"
+              data-value="paragraph"
+            >
               Through our web platform, teachers will be able to self-train and
               evaluate themselves through virtual courses in order to provide a
               solution to poor quality teaching that has been applied in virtual
@@ -159,8 +182,14 @@
       <div class="row">
         <div id="users" class="col-xxl-6">
           <figure class="tf_three">
-            <h1 style="color: #2c53c9">Type of users</h1>
-            <p style="text-align: justify">
+            <h1 style="color: #2c53c9" data-section="users" data-value="title">
+              Type of users
+            </h1>
+            <p
+              style="text-align: justify"
+              data-section="users"
+              data-value="paragraph"
+            >
               Our application is designed for the entire group of workers that
               make up an educational institution and its different workflows
               regardless of the area in which they are specialists.
@@ -175,8 +204,14 @@
               alt="..."
               style="width: 40px; height: 40px"
             />
-            <h2 style="color: white">Teacher</h2>
-            <p style="color: white; text-align: justify">
+            <h2 style="color: white" data-section="teacher" data-value="title">
+              Teacher
+            </h2>
+            <p
+              style="color: white; text-align: justify"
+              data-section="teacher"
+              data-value="paragraph"
+            >
               The self-training and self-assessment tools designed for each one
               of teachers in all areas taught at the national level allow the
               work done by each of them is done more effectively.
@@ -191,8 +226,18 @@
               alt="..."
               style="width: 40px; height: 40px"
             />
-            <h2 style="color: white">Director</h2>
-            <p style="color: white; text-align: justify">
+            <h2
+              style="color: white"
+              data-section="principal"
+              data-value="title"
+            >
+              Principal
+            </h2>
+            <p
+              style="color: white; text-align: justify"
+              data-section="principal"
+              data-value="paragraph"
+            >
               The analytics solutions implemented collect, organize and display
               each one of the data of our different tools allowing that the
               control carried out a principal over his teaching team is more
@@ -210,11 +255,25 @@
               src="images/user_icon.png"
               class="img-fluid mx-auto d-block mb-2"
               alt="..."
-              style="width: 255px; height: 255px"
             />
-            <h4 style="color: white">Premium user</h4>
-            <a style="color: white">Price - $5.00</a>
-            <p style="color: white">
+            <h4
+              style="color: white"
+              data-section="premium-plan"
+              data-value="type"
+            >
+              Premium user
+            </h4>
+            <a
+              style="color: white"
+              data-section="premium-plan"
+              data-value="price"
+              >Price - $5.00</a
+            >
+            <p
+              style="color: white"
+              data-section="premium-plan"
+              data-value="paragraph"
+            >
               This plan is aimed at institutions or work teams that want to use
               our business tools: Access to analytics solutions. Control of the
               different workflows. Control of the objectives to be achieved in
@@ -229,11 +288,18 @@
               src="images/user_icon.png"
               class="img-fluid mx-auto d-block mb-2"
               alt="..."
-              style="width: 255px; height: 255px"
             />
-            <h4 style="color: white">Free user</h4>
-            <a style="color: white">Price - $0.00</a>
-            <p style="color: white">
+            <h4 style="color: white" data-section="free-plan" data-value="type">
+              Free user
+            </h4>
+            <a style="color: white" data-section="free-plan" data-value="price"
+              >Price - $0.00</a
+            >
+            <p
+              style="color: white"
+              data-section="free-plan"
+              data-value="paragraph"
+            >
               This plan is aimed at institutions or individuals who want to use
               some of our tools: Limited learning modules. Organization tools.
               Communication system through post office.
@@ -242,8 +308,14 @@
         </div>
         <div class="col-xxl-6">
           <figure class="tf_four">
-            <h1 style="color: #2c53c9">Know the different plans</h1>
-            <p style="text-align: justify">
+            <h1 style="color: #2c53c9" data-section="plans" data-value="title">
+              Know the different plans
+            </h1>
+            <p
+              style="text-align: justify"
+              data-section="plans"
+              data-value="description"
+            >
               Each of our plans is thinking in order to be able to provide
               access to all members of the institution regardless of whether you
               are in a team of work or if you want to use any of our tools
@@ -257,8 +329,14 @@
     <div class="row">
       <div id="about-us" class="col-md-6 left">
         <figure class="tf_five">
-          <h1 style="color: #2c53c9">We are TotemCrew</h1>
-          <p style="text-align: justify">
+          <h1 style="color: #2c53c9" data-section="team" data-value="title">
+            We are TotemCrew
+          </h1>
+          <p
+            style="text-align: justify"
+            data-section="team"
+            data-value="description"
+          >
             TotemCrew was born as an innovative proposal that seeks to meet the
             needs of the education sector through the use of technology and the
             development of solutions that provide a satisfactory user
@@ -283,8 +361,18 @@
       </div>
       <div class="col-md-6 right">
         <figure class="tf_six">
-          <h1 style="color: #2c53c9; text-align: center">¡Try the app now!</h1>
-          <p style="color: black; text-align: center">
+          <h1
+            style="color: #2c53c9; text-align: center"
+            data-section="cta"
+            data-value="title"
+          >
+            Try the app now!
+          </h1>
+          <p
+            style="color: black; text-align: center"
+            data-section="cta"
+            data-value="description"
+          >
             Start your free trial with just your registration on our platform
             and enjoy all the tools of the "Premium" plan for 15 days.
           </p>
@@ -294,6 +382,8 @@
               href="https://asimov-agile-202202.web.app/"
               target="_blanck"
               role="button"
+              data-section="cta"
+              data-value="btn"
             >
               Go to the Asimov
             </a>
@@ -305,14 +395,14 @@
   <!-- Footer -->
   <footer class="py-4">
     <ul class="nav justify-content-center pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2">Home</a></li>
-      <li class="nav-item"><a href="#users" class="nav-link px-2">Users</a></li>
-      <li class="nav-item"><a href="#plans" class="nav-link px-2">Plans</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2" data-section="footer" data-value="home">Home</a></li>
+      <li class="nav-item"><a href="#users" class="nav-link px-2" data-section="plans" data-value="user">Users</a></li>
+      <li class="nav-item"><a href="#plans" class="nav-link px-2" data-section="plans" data-value="plan">Plans</a></li>
       <li class="nav-item">
-        <a href="#about-us" class="nav-link px-2">About us</a>
+        <a href="#about-us" class="nav-link px-2" data-section="plans" data-value="about">About us</a>
       </li>
     </ul>
-    <p class="text-center mb-0">&copy; 2022 TotemCrew</p>
+    <p class="text-center mb-0">&copy; 2023 TotemCrew</p>
   </footer>
 
   <script

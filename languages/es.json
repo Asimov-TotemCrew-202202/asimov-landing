@@ -1,7 +1,59 @@
 {
+  "navbar": {
+    "user": "Usuarios",
+    "plans": "Planes",
+    "about": "Sobre nosotros",
+    "try": "Probar"
+  },
   "hero": {
     "title": "Conoce a Asimov",
-    "subtitle": "Una plataforma que se enfoca en lo que realmente importa: competencias",
+    "subtitle": "Una plataforma que se enfoca en las competencias que realmente importan",
     "paragraph": "El proceso de cambio que han atravesado las instituciones educativas, de brindar servicios presenciales a virtuales, ha puesto en evidencia las diferentes problemáticas que tienen estas. Uno de ellos y el más importante, ya que es donde la base de la formación educativa, es poder llevar un control de los procesos de planificación, ejecución y evaluación de competencias durante el transcurso del año escolar tanto en el nivel inicial, como en el primario y educación secundaria."
+  },
+  "speech": {
+    "title": "¿Cómo enseñar a través de herramientas virtuales?",
+    "subtitle": "Asimov nació como respuesta a esa pregunta.",
+    "paragraph": "A través de nuestra plataforma web, los docentes podrán autocapacitarse y evaluarse a través de cursos virtuales con el fin de dar solución a la mala calidad docente que se ha aplicado en las clases virtuales. Y las instituciones educativas tendrán la capacidad de realizar un control adecuado en los procesos de planificación, ejecución y evaluación de competencias durante el transcurso del ciclo escolar utilizando herramientas de autoformación y autoevaluación, sobre las competencias a utilizar a lo largo del ciclo escolar proporcionada a su equipo de profesores."
+  },
+  "users": {
+    "title": "Tipos de usuarios",
+    "paragraph": "Nuestra aplicación está diseñada para todo el grupo de trabajadores que conforman una institución educativa y sus diferentes flujos de trabajo sin importar el área en la que sean especialistas."
+  },
+  "teacher": {
+    "title": "Profesor",
+    "paragraph": "Las herramientas de autoformación y autoevaluación diseñadas para cada uno de los docentes en todas las áreas que se imparten a nivel nacional, permiten que el trabajo realizado por cada uno de ellos se realice con mayor eficacia."
+  },
+  "principal": {
+    "title": "Director",
+    "paragraph": "Las soluciones de analítica implementadas recopilan, organizan y visualizan cada uno de los datos de nuestras diferentes herramientas permitiendo que el control que realiza un director sobre su equipo docente sea más efectivo."
+  },
+  "premium-plan": {
+    "type": "Usuario Premium",
+    "price": "Precio - $5.00",
+    "paragraph": "Este plan está dirigido a instituciones o equipos de trabajo que quieran utilizar nuestras herramientas de negocio: Acceso a soluciones de analítica. Control de los diferentes flujos de trabajo. Control de los objetivos a conseguir en el curso escolar. Módulos de aprendizaje continuo. Todos los beneficios del Plan Gratis."
+  },
+  "free-plan": {
+    "type": "Usuario gratis",
+    "price": "Precio - $0.00",
+    "paragraph": "Este plan está dirigido a instituciones o personas que quieran utilizar algunas de nuestras herramientas: Módulos de aprendizaje limitados. Herramientas de organización. Sistema de comunicación a través de correos."
+  },
+  "plans": {
+    "title": "Conoce los diferentes planes",
+    "description": "Cada uno de nuestros planes está pensado para poder brindar acceso a todos los miembros de la institución sin importar si se encuentra en un equipo de trabajo o si desea utilizar alguna de nuestras herramientas de forma independiente."
+  },
+  "team": {
+    "title": "Somos TotemCrew",
+    "paragraph": "TotemCrew nace como una propuesta innovadora que busca satisfacer las necesidades del sector educativo a través del uso de la tecnología y el desarrollo de soluciones que brinden una experiencia de usuario satisfactoria.<br /> Podemos encontrar a Julio, Yordy, Joaquín y Jherico en la imagen por el lado."
+  },
+  "cta": {
+    "title": "¡Prueba el app ahora!",
+    "description": "Inicia tu prueba gratuita con solo tu registro en nuestra plataforma y disfruta de todas las herramientas del plan 'Premium' durante 15 días.",
+    "btn": "Ir a Asimov"
+  },
+  "footer": {
+    "home": "Inicio",
+    "user": "Usuarios",
+    "plan": "Planes",
+    "about": "Sobre nosotros"
   }
 }

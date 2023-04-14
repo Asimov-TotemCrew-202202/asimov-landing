@@ -1,7 +1,59 @@
 {
+  "navbar": {
+    "user": "Users",
+    "plans": "Plans",
+    "about": "About us",
+    "try": "Go try"
+  },
   "hero": {
     "title": "Meet Asimov",
     "subtitle": "A platform that focuses on what really matters competencies",
     "paragraph": "The process of change that educational institutions have undergone, from providing services face-to-face to virtual, has highlighted the different problems that these have. One of them and the most important, since that, is where the base of educational training, is to be able to keep track of the planning processes, execution, and assessment of competencies during the course of the school year both at the initial, primary, and secondary education."
+  },
+  "speech": {
+    "title": "How to teach through virtual tools?",
+    "subtitle": "Asimov was born as an answer to that question",
+    "paragraph": "Through our web platform, teachers will be able to self-train and evaluate themselves through virtual courses in order to provide a solution to poor quality teaching that has been applied in virtual classes. And educational institutions will have the ability to carry out proper control in the processes of planning, execution and evaluation of competencies during the course of the school year using self-training and self-assessment tools, on the competencies to be used throughout the school year, provided to your team of teachers."
+  },
+  "users": {
+    "title": "Type of users",
+    "paragraph": "Our application is designed for the entire group of workers that make up an educational institution and its different workflows regardless of the area in which they are specialists."
+  },
+  "teacher": {
+    "title": "Teacher",
+    "paragraph": "The self-training and self-assessment tools designed for each one of teachers in all areas taught at the national level allow the work done by each of them is done more effectively."
+  },
+  "principal": {
+    "title": "Principal",
+    "paragraph": "The analytics solutions implemented collect, organize and display each one of the data of our different tools allowing that the control carried out a principal over his teaching team is more effective."
+  },
+  "premium-plan": {
+    "type": "Premium user",
+    "price": "Price - $5.00",
+    "paragraph": "This plan is aimed at institutions or work teams that want to use our business tools: Access to analytics solutions. Control of the different workflows. Control of the objectives to be achieved in the school year. Continuous learning modules. All the benefits of the Free Plan."
+  },
+  "free-plan": {
+    "type": "Free user",
+    "price": "Price - $0.00",
+    "paragraph": "This plan is aimed at institutions or individuals who want to use some of our tools: Limited learning modules. Organization tools. Communication system through post office."
+  },
+  "plans": {
+    "title": "Know the different plans",
+    "description": "Each of our plans is thinking in order to be able to provide access to all members of the institution regardless of whether you are in a team of work or if you want to use any of our tools independently"
+  },
+  "team": {
+    "title": "We are TotemCrew",
+    "paragraph": "TotemCrew was born as an innovative proposal that seeks to meet the needs of the education sector through the use of technology and the development of solutions that provide a satisfactory user experience.<br /> We can find Julio, Yordy, Joaquin and Jherico in the image to the side."
+  },
+  "cta": {
+    "title": "Try the app now!",
+    "description": "Start your free trial with just your registration on our platform and enjoy all the tools of the 'Premium' plan for 15 days.",
+    "btn": "Go to the Asimov"
+  },
+  "footer": {
+    "home": "Home",
+    "user": "Users",
+    "plan": "Plans",
+    "about": "About us"
   }
 }

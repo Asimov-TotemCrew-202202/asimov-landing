@@ -15,9 +15,16 @@ nav {
 }
 body nav li {
   font-weight: bold;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   color: white;
+}
+
+@media (min-width: 764px) {
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
 }
 
 /* Languages */
@@ -27,9 +34,8 @@ body nav li {
 }
 
 .languages__item {
-  width: 20px;
-  height: 20px;
-  background-color: #2C53C9;
+  padding: 4px;
+  background-color: #2c53c9;
 }
 
 /* Website Body */
@@ -67,6 +73,10 @@ body nav li {
 .tf_one a {
   font-size: 25px;
   font-weight: bold;
+}
+
+.td_one {
+  background-color: #2c53c9;
 }
 
 /* Section 2 */
